@@ -1,9 +1,9 @@
 import { expect } from 'chai';
 import t from '../dist/index';
 
-describe('xxx', () => {
-	it('xxx', () => {
+describe('storage clear', () => {
+	it('clear storage', () => {
 		t();
-		expect(1).not.eq(2);
+		expect(localStorage.length).eq(0);
 	});
 });
